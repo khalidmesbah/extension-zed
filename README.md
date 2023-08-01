@@ -14,3 +14,14 @@ in a while. So if you've ever wanted to "give back" to Scrimba, you can do that 
 	It would also mean the world to us if you share the courses.  
 
 Happy Coding!
+
+# What is it good for
+- extension manager
+- add blocker
+- notion integration
+- mesbah-matrix and savvy integration
+- facebook,youtube,instagram,x/twitter integration
+- age in milliseconds
+- article reader
+- dark mode
+- speed videos
