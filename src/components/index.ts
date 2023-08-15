@@ -1,8 +1,18 @@
-import ChangeBg from "./ChangeBG";
+import ChangeColors from "./ChangeColors";
+import ChangePlaybackRate from "./ChangePlaybackRate";
+import InspectCurrentPageBtn from "./InspectCurrentPageBtn";
+import HideMainScrollBarBtn from "./HideMainScrollBarBtn";
+import HideAllScrollBarsBtn from "./HideAllScrollBarsBtn";
+import DesignMode from "./DesignMode";
 import Test from "./Test"
 
 
 export {
-  ChangeBg,
-  Test
+  ChangeColors,
+  ChangePlaybackRate,
+  InspectCurrentPageBtn,
+  Test,
+  HideAllScrollBarsBtn,
+  HideMainScrollBarBtn,
+  DesignMode
 }

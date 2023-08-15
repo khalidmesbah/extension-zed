@@ -1,40 +1,95 @@
-# React + TypeScript + Vite
+# Extension Zed
+> From A to Z
+> enhance your browsing experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+## General
+- [ ] Hide scrollbar
+- [ ] Add blocker
+- [ ] Extension manager
+- [ ] Age in milliseconds
+- [ ] Dark mode
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Reading
 
-## Expanding the ESLint configuration
+- Article reader
+- Reading mode
+    - custom background color
+    - custom text color
+    - custom width
+    - custom font size
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+#### Notes
+- copy pocket
+- search for ideas on the extensions web store
 
-- Configure the top-level `parserOptions` property like this:
+### Youtube
+- [ ] custom playbackRate
+- [ ] highligher/marker/bookmarks/notes
+- [ ] auto adjust half screen
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+#### Notes
+
+- Copy youtube enhancer
+- search for ideas on the extensions web store
+
+### Integration
+
+- [ ] Mesbah matrix
+- [ ] Savvy
+- [ ] Notion
+- [ ] Google tasks/calendar/keep
+- [ ] Facebook
+- [ ] Youtube
+- [ ] Instagram
+- [ ] X
+
+### Reminders
+- [ ] posture reminder
+- [ ] azkar reminder
+- [ ] remembers reminder
+- [ ] salah reminder
+- [ ] excercise reminder
+- [ ] eyes reminder 
+- [ ] custom reminder
+
+### New Tab (random everything) ??
+- Random Quote
+- Random Ayah
+- Random Vim Tip
+- Random Life Hack
+- Random Remember
+
+### Liner
+- highligher manager
+
+
+### Sync
+- mesbah matrix
+
+
+### Inspiration
+  https://github.com/FarisHijazi/google-search-result-hotkeys
+- 
+
+## Notes
+
+- make the ability to revert the change that has been made
+e.g
+```html
+    <Button onClick={inspect}>inspect</Button>
+    // will become onclick
+    <Button onClick={unInspect}>unInspect</Button>
+    // or
+    <Button onClick={handleInspect}>{isInspected ? "unInspect" : "inspect"}</Button>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tasks
 
+- [ ] 
 
-- Reading mode
-    - speai or dark bg + custom color 
-- extension manager
-- add blocker
-- notion integration
-- mesbah-matrix and savvy integration
-- facebook,youtube,instagram,x/twitter integration
-- age in milliseconds
-- article reader
-- dark mode
-- speed videos
+## Issues
+
+- tailwind not working
+

@@ -7,12 +7,18 @@
 
   "action":{
     "default_popup":"index.html",
-    "default_title":"hi ya khalid"
+    "default_title":"hi ya khalid",
+    "default_icon": "images/icon.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
   },
 
   "permissions":[
     "scripting",
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "host_permissions":[
     "https://*/*",
