@@ -28,7 +28,7 @@
 "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Ctrl+Z"
+        "default": "Alt+Z"
       }
     }
   }
