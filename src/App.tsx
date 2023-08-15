@@ -1,42 +1,53 @@
 // import { useEffect } from 'react'
-import './index.css'
-import { ChangeColors, ChangePlaybackRate, Test, HideAllScrollBarsBtn, HideMainScrollBarBtn, InspectCurrentPageBtn, DesignMode } from './components'
+import { ChangeColors, ChangePlaybackRate, Test, HideAllScrollBarsBtn, HideMainScrollBarBtn, InspectCurrentPageBtn, DesignMode, YoutubeFocusMode } from './components'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+
 
 function App() {
-  /* const handleKeydown = (e: KeyboardEvent) => {
-    console.log(e.key)
-    if (e.key === "y") {
-
-    }
-  }
-  useEffect(() => {
-    window.addEventListener("keydown", handleKeydown)
-    return () => window.removeEventListener("keydown", handleKeydown)
-  }, []) */
   return (
-    <div className='rounded-lg bg-slate-500 app' >
-      hi
-      <hr />
-      <p className="text-4xl">fjksadfkj</p>
-      <hr />
-      <p style={{
-        background: "red",
-        fontSize: "36px"
-      }}>fjksadfkj</p>
-      <hr />
-      <ChangePlaybackRate />
-      <hr />
-      <ChangeColors />
-      <hr />
-      <Test />
-      <hr />
-      <HideMainScrollBarBtn />
-      <HideAllScrollBarsBtn />
-      <hr />
-      <InspectCurrentPageBtn />
-      <hr />
-      <DesignMode />
-    </div>
+    <Tabs defaultValue="youtube" className="w-[400px]" style={{
+      borderRadius: "10px",
+      background: "red",
+      padding: "10px"
+    }}>
+      <TabsList>
+        <TabsTrigger value="random">random</TabsTrigger>
+        <TabsTrigger value="youtube">Youtube</TabsTrigger>
+      </TabsList>
+      <TabsContent value="random">
+        <div style={{
+          borderRadius: "5px",
+          background: "purple",
+          padding: "5px"
+        }}>
+          hi
+          <hr />
+          <p className="text-4xl">fjksadfkj</p>
+          <hr />
+          <p style={{
+            background: "red",
+            fontSize: "36px"
+          }}>fjksadfkj</p>
+          <hr />
+          <ChangePlaybackRate />
+          <hr />
+          <ChangeColors />
+          <hr />
+          <Test />
+          <hr />
+          <HideMainScrollBarBtn />
+          <HideAllScrollBarsBtn />
+          <hr />
+          <InspectCurrentPageBtn />
+          <hr />
+          <DesignMode />
+        </div>
+      </TabsContent>
+      <TabsContent value="youtube" style={{ padding: "20px" }} className='bg-red-500'>
+        fasdjflaksdjflkj
+        <YoutubeFocusMode />
+      </TabsContent>
+    </Tabs >
   )
 }
 

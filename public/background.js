@@ -42,8 +42,11 @@ chrome.runtime.onMessage.addListener((data) => {
       files: ["scripts/designMode.js"],
     })
       .then(() => console.log("script injected in all frames"));
+  } else if (data.event === "hideYoutubeProgressBar") {
+    chrome.scripting.executeScript({
+      target: { tabId: data.tabId, allFrames: true },
+      files: ["scripts/youtubeProgressBar.js"],
+    })
+      .then(() => console.log("script injected in all frames"));
   }
-
-
-
 });

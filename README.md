@@ -84,12 +84,26 @@ e.g
     // or
     <Button onClick={handleInspect}>{isInspected ? "unInspect" : "inspect"}</Button>
 ```
+- think about the structure of the project and insure that it's scalable, because i will add a lot of Features to it
 
 ## Tasks
 
-- [ ] 
+- [ ] make a scrollbar tab with the ability to add my custom scrollbar
+- [ ] add a custom scrollbar
+- [ ] add keyboard events 
+
+## Tabs
+
+- Home
+- Youtube
+- Random
+- Reading
+- Productivity
+- Coding
+- Scripts
 
 ## Issues
 
 - tailwind not working
+
 
