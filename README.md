@@ -28,11 +28,13 @@
 - [ ] custom playbackRate
 - [ ] highligher/marker/bookmarks/notes
 - [ ] auto adjust half screen
+- [ ] highlight system like readwise
 
 #### Notes
 
 - Copy youtube enhancer
 - search for ideas on the extensions web store
+- make youtube go to full screen by default
 
 ### Integration
 
@@ -64,6 +66,18 @@
 ### Liner
 - highligher manager
 
+### Shares
+- takes a tweet and make an image of it like pikaso
+- takes a facebook post and make an image of it
+- takes a screen shot of an image on instagram
+- 
+
+### videos
+- video downloader 
+
+### Audios
+
+- adjust playbackRate
 
 ### Sync
 - mesbah matrix

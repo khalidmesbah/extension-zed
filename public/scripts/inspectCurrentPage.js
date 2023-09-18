@@ -1,8 +1,8 @@
 const colors = [
-  "#4285F4",
-  "#DB4437",
-  "#F4B400",
-  "#0F9D58"
+  "#f00",
+  "#0f0",
+  "#00f",
+  "#ff0",
 ]
 
 const allElements = document.querySelectorAll("body *") || []

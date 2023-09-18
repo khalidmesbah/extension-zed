@@ -9,7 +9,7 @@ const handleFocusMode = () => {
     chrome.scripting.executeScript({
       target: { tabId: activeTabId },
       func: () => {
-        const content = document.getElementById("content")
+        /* const content = document.getElementById("content")
         const below = document.getElementById("below")
         const statusBanner = document.querySelector(".status-banner")
         const youtubeChromeBottom = document.querySelector(".ytp-chrome-bottom")
@@ -44,7 +44,14 @@ const handleFocusMode = () => {
         statusBanner?.remove()
         below?.remove()
         youtubeChromeBottom?.remove()
-        console.log(content, captions)
+        console.log(content, captions) */
+
+      // const fullScreenButton = document.querySelector(".ytp-fullscreen-button") as HTMLButtonElement;
+      const playerContainer = document.getElementById("player-full-bleed-container") as HTMLDivElement;
+
+      playerContainer?.style.setProperty("height","calc(100vh - 56px)")
+      playerContainer?.style.setProperty("max-height","calc(100vh - 56px)")
+      // fullScreenButton?.click();
       }
     })
   })
