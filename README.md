@@ -18,8 +18,10 @@
 - [ ] custom background color and color of the page
 - [ ] a button clear all cookies & local storage and cache ...etc => make the website run like it's on incognito
 - [ ] a button to disable all other extensions except this one
-- [ ] take notes from the web *****
-- [ ]
+- [ ] take notes from the web **\***
+- [ ] like video notebook extension
+- [ ] hide the duration of youtube video (always and on demand)
+- [ ] save anything from anywhere in one place
 
 ### Reading
 
